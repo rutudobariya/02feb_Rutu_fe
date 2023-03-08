@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log-in</title>
+     <style>
+        form{
+          background-color: blanchedalmond;
+        }
+        h1{
+            color: brown;
+        }
+     </style>
+</head>
+<body>
+    <form action="https://www.flipkart.com">
+    <fieldset>
+    <h1><center>Personal Details</center></h1>
+    <center>
+    <label for="fnm">First-name: &nbsp;</label>
+    <input type="text" name="fnm" id=""><br><br>
+    <label for="pass">Password: &nbsp;</label>
+    <input type="password" name="pass" id="" pattern="[a-z,A-Z,0-9,@]{3-8}"required><br><br>
+    <label for="email">Email-id: &nbsp;</label>
+    <input type="email" name="email" id=""><br><br>
+    <label for="gender">Gender: &nbsp;</label>
+    <input type="radio" name="gender" id="">
+    <label for="gender">male &nbsp;</label>
+    <input type="radio" name="gender" id="">
+    <label for="gender">FeMale &nbsp;</label>
+    <h1><center>Educational Qualification</center></h1>
+    <label for="selectno">Degree: &nbsp;</label>
+    <select name="" id="">
+      <option value="select">--Select Group--</option>
+      <option value="bca">bca</option>
+      <option value="mca">mca</option>
+      <option value="bcom">bcom</option>
+      <option value="bsc.it">bsc.it</option>
+      <option value="pgdca">pgdca</option>
+    </select><br><br>
+    <label for="selectno">Engineering: &nbsp;</label>
+    <select name="" id="">
+      <option value="select">--Select Group--</option>
+      <option value="Mechanical">Mechanical</option>
+      <option value="civil">civil</option>
+      <option value="Electrical">Electrical</option>
+      <option value="Chemical">Chemical</option>
+      <option value="Computer">Computer</option>
+    </select><br><br>
+    <label for="hobby">Hobbies: &nbsp;</label>
+    <input type="checkbox" name="hobby" id="">
+    <label for="hobby">Playing chess &nbsp;</label>
+    <input type="checkbox" name="hobby" id="">
+    <label for="sub">Reading Books &nbsp;</label><br><br>
+    <h1><center>Address</center></h1> 
+    <textarea name="address" id="" cols="50" rows="05"></textarea><br><br>
+    <label for="file">Attach Resume: &nbsp;</label>
+    <input type="file" name="file" id=""><br><br>
+    <input type="submit" name="" value="submit">
+</center>
+    </fieldset>
+    </form>
+</body>
+</html>!
