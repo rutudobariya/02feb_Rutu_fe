@@ -1,0 +1,45 @@
+body{
+    background-color: aqua;
+    background-color: lightskyblue;
+    color:black; 
+}
+*{
+    margin:2px;
+    padding: 5px;
+    
+}
+.banner{
+   float:left;
+   margin-left:320px;
+}
+.banner-1{
+    float:right;
+   margin-right: 320px;;
+}
+textarea{
+  
+    width: fit-content;
+    margin:auto;
+  
+    }
+.banner-2{
+   width: fit-content;
+   margin: auto;
+
+   }
+.banner-3{
+   float: left;
+   margin-left:320px;
+  
+    }
+.banner-4{
+   
+ float:right;
+ margin-right: 320px;
+}
+.banner-5{
+ 
+ margin-left: 320px;
+ float: left;
+ display: inline;
+}
