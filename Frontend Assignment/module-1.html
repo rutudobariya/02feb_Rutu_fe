@@ -554,6 +554,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Module-1</title>
+    <style>
+      .content{
+           color:brown;
+           background-color: antiquewhite;
+      }
+      #fruits{
+        color:aliceblue;
+        background: black;
+        padding:20px;
+      }
+      .game{
+        color:crimson;
+        background:lightyellow;
+        padding: 20px;
+      }
+    </style>
 </head>
 <body>
    <h1><center><u>MODULE-1 (HTML)</u></center></h1>
@@ -590,7 +606,7 @@
             
             <h3>Q-4 What are HTML Entities?</h3>
             <p>-->Reserved characters in HTML must be replaced with character entities.f you use the less than (<) or greater than (>) signs in your text, the browser might mix them with tags.Character entities are used to display reserved characters in <br>
-            <b>example:</b> <br> a less than sign (<) </p>
+            <b>example:</b> <br> a less than sign <b>(<)</b> <br> ampersand <b>(& amp;)</b> </p>
             <hr>
 
             <h3>Q-5 What are different types of lists in HTML?</h3>
@@ -627,33 +643,147 @@
                       </ul> <br> <br>
                       
                     <li><b>Description Lists:</b><br>
-                    -->A description list is a list of terms, with a description of each term.The &ltdl&gt; tag defines the description list, the &lt;dt&gt; tag defines the term (name), and the &lt;dd&gt; tag describes.
-                    <b> Example:</b><br>
-                    <li><b>Nested list:</b>A nested list is a list of lists, or any list that has another list as an element (a sublist).</li>
+                    -->A description list is a list of terms, with a description of each term.The &ltdl&gt; tag defines the description list, the &lt;dt&gt; tag defines the term (name), and the &lt;dd&gt; tag .<br>
+
+                      <b>Example:</b><br>
+                      <dl><br>
+                        < dl><br>
+                        < dt>HTML:-< /dt><br>
+                        < dd>Hyper Text Markup Language< /dd><br>
+                        < dt>CSS:-< /dt><br>
+                        < dd>Cascading Style Sheet< /dd><br>
+                        < dt>JS:-< /dt><br>
+                        < dd>Java script< /dd><br>
+                        < /dl><br><br>
+                    <b> Output:</b><br>
+                    <dl><br>
+                      <dt>HTML:-</dt>
+                      <dd>Hyper Text Markup Language</dd>
+                      <dt>CSS:-</dt>
+                      <dd>Cascading Style Sheet</dd>
+                      <dt>JS:-</dt>
+                      <dd>Java script</dd>
+                  </dl><br><br>
+                    
+                    <li><b>Nested list:</b><br>
+                    --> A nested list is a list of lists, or any list that has another list as an element (a sublist).<br>
+                        <b>Example:</b><br>
+                        < dl><br>
+                          < dt><b>Electronics</b>< /dt><br>
+                          < dd><br>
+                            < ul><br>
+                                < li>Monitors< /li><br>
+                                < li>Printer< /li><br>
+                                < li>Screen Guards< /li><br>
+                                < li>Projectors< /li><br>
+                            < /ul><br>
+                        < /dd><br>
+                        < dt><b>Washing Machine</b>< /dt><br>
+                         < dd><br>
+                            < ol start="5"><br>
+                                < li>fully automatic frontload < /li><br>
+                                < li>semi automatic topload < /li><br>
+                                < li>fully automatic topload < /li><br>
+                            < /ol><br>
+                         < /dd><br>
+                    < /dl><br><br>
+
+                      <b> Output:</b><br>
+                        <dl>
+                        <dt><b>Electronics</b></dt>
+                        <dd>
+                          <ul>
+                              <li>Monitors</li>
+                              <li>Printer</li>
+                              <li>Screen Guards</li>
+                              <li>Projectors</li>
+                          </ul>
+                      </dd>
+                      <dt><b>Washing Machine</b></dt>
+                       <dd>
+                          <ol start="5">
+                              <li>fully automatic frontload </li>
+                              <li>semi automatic topload </li>
+                              <li>fully automatic topload </li>
+                          </ol>
+                       </dd>
+                  </dl><br>
                 </ol>
             </p>
             <hr>
 
             <h3>Q-6 What is the class attribute in HTML?</h3>
-            <p>-->The class attribute specifies one or more classnames for an element.The class attribute is part of the Global Attributes, and can be used on any HTML element.<b>example:</b>.classname (.content)</p>
-            <hr>
+            <p>-->The class attribute specifies one or more classnames for an element.The class attribute is part of the Global Attributes, and can be used on any HTML element.. &nbsp;&nbsp;<b>Syntax:</b> .classname (.content)<br>
+               <b>example:</b><br>
+                <div class="content">
+                  <p> Heading 1</p>
+                 </div><br>
+                </p>
+              <hr>
 
             <h3>Q-7 What is the difference between the id attribute and the class attribute of HTML elements?</h3>
-            <p>-->The difference between id attribute and the class attribute is used to id value of specify a unique id for an HTML element. as for class  value of the Multiple HTML elements.. </p>
+            <p>-->The difference between id attribute and the class attribute is used to id value of specify a unique id for an HTML element. as for class  value of the Multiple HTML elements.<br>
+                <ol>
+                  <li><b>id attribute:</b><br>An element with a unique id . hash character (#), followed by an id name.<br>
+                  <b>Example:</b><br>
+                < h3 id=" fruits">Apple< /h3><br>
+                  <h3 id="fruits">Apple</h3><br>
+                  </li>
+
+                  <li><b>class attribute:</b> <br>Multiple element with same class.Dote(.) , followed by class name .<br>
+                    <b>Example:</b><br>
+                     < h3 class=" game">cricket< /h3><br>
+                     <h3 class="game">cricket</h3><br>
+                  </li>
+                    
+                </ol>
+            </p>
             <hr>
 
             <h3>Q-8 What are the various formatting tags in HTML?</h3>
             <p>-->Formatting elements were designed to display special types of text:
                 <ul>
-                    <li><b>Bold tag</b></li>
-                    <li><strong>strong tag</strong></li>
-                    <li><i>Italic tag</i></li>
-                    <li><u>Underline tag</u></li>
-                    <li><big>Big tag</big></li>
-                    <li><small>Small tag</small></li>
-                    <li><mark>Mark tag</mark></li>
-                    <li><em>Emphasized tag</em></li>
-                    <li><ins>Inserted tag</ins></li>
+                    <li><b>Bold tag:</b><br>The HTML < b> element defines bold text;<br><br>
+                      <b>-->Output:-</b><br>
+                      <b>Mahadev Enterprise</b><br>
+                     </li><br>
+
+                    <li><b>strong tag:</b><br>The HTML < strong> element defines text with strong importance.<br> <br>
+                    <b>-->Output:-</b><br> 
+                    <strong>Mahadev Enterprise!</strong>
+                    </li><br>
+
+                    <li><b>Italic tag:-</b><br>The content inside is < i> typically displayed in italic.<br> <br>
+                      <b>-->Output:-</b><br>
+                      <i>Mahadev Enterprise</i><br>
+                    </li><br>
+
+                    <li><b>Underline tag:-</b><br> The HTML < u> defines underline text.<br><br>
+                    <b>-->Output:-</b><br>
+                    <u>Mahadev Enterprise</u><br>
+                   </li><br>
+
+                    <li><b>Big tag</b><br>The HTML < big> element defines big text. <br><br>
+                    <b>->Output:-</b><br>
+                    <big>Mahadev Enterprise</big><br>
+                    </li><br>
+
+                    <li><b>Small tag</b><br>The HTML < small> element defines smaller text.<br><br>
+                      <b>->Output:-</b><br>
+                      <small>Mahadev Enterprise</small><br>
+                    </li><br>
+
+                    <li><b>Mark tag:-</b><br>The HTML < mark> element defines text that should be marked or highlighted. <br><br>
+                    <b>->Output:-</b><br>
+                    <mark>Mahadev Enterprise</mark><br>
+                    </li><br>
+
+                    <li><b>Emphasized tag</b><br>The HTML <em> element defines emphasized text. The content inside is typically displayed in italic .<br><br>
+                    <b>->Output:-</b><br>
+                    <em>Mahadev Enterprise</em><br>
+                    </li><br>
+
+                    <li><b>Inserted tag</b></li>
                     <li><del>Deleted tag</del></li>
                     <li>Subscript <sub>tag</sub></li>
                     <li>Superscript <sup>tag</sup></li>
