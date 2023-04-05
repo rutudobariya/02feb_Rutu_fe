@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 * {
     margin: 10px;
     text-align: center;
@@ -23,4 +24,24 @@ a:hover {
 i {
     height: 50px;
     width: 50px;
+=======
+*{
+    margin:50px;
+}
+body{
+    background-color: lightskyblue;
+    color: black;
+    text-align: center;
+   
+}
+a{
+    border:5px solid black;
+    color:brown;
+    padding:5px 25px 5px 25pxx;
+
+}
+i{
+    height: 50px;
+    width:50px;
+>>>>>>> 2e1d0c6 (fff)
 }

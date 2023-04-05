@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 table,th,td{
     border 1px solid #fff;
     border-collapse: collapse;
@@ -5,4 +6,13 @@ table,th,td{
 body{
     background-color: lightskyblue;
     color:black
+=======
+table,th,td{
+    border 1px solid #fff;
+    border-collapse: collapse;
+}
+body{
+    background-color: lightskyblue;
+    color:black
+>>>>>>> 2e1d0c6 (fff)
 }
