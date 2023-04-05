@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VisualLightBox>
+    <Gallery version="2.5">
+        <Settings>
+            <AutoPlay>true</AutoPlay>
+            <DescSliding>true</DescSliding>
+            <GalleryMultipleSuffix>1</GalleryMultipleSuffix>
+            <GalleryName>lightbox</GalleryName>
+            <GalleryOptionID>1</GalleryOptionID>
+            <HoverStart>true</HoverStart>
+            <ImageAspectRatio>true</ImageAspectRatio>
+            <ImageEngine>jquery</ImageEngine>
+            <ImageHeight>480</ImageHeight>
+            <ImageQuality>90</ImageQuality>
+            <ImageShrink>true</ImageShrink>
+            <ImageStretch>false</ImageStretch>
+            <ImageTemplate>22. Modern</ImageTemplate>
+            <ImageTemplateName>Modern</ImageTemplateName>
+            <ImageWidth>640</ImageWidth>
+            <PublishFileName>D:/02Feb_Rutu_wd/HTML/03.Image/lightbox.html</PublishFileName>
+            <PublishIndex>lightbox.html</PublishIndex>
+            <PublishPath>D:/02Feb_Rutu_wd/HTML/03.Image</PublishPath>
+            <PublishPreview>true</PublishPreview>
+            <PublishType>file</PublishType>
+            <RelPaths>false</RelPaths>
+            <ResizeSpeed>7</ResizeSpeed>
+            <RightClick>true</RightClick>
+            <SlideShow>true</SlideShow>
+            <SlideShowDelay>4</SlideShowDelay>
+            <ThumbColumns>0</ThumbColumns>
+            <ThumbFitImage>false</ThumbFitImage>
+            <ThumbFormat>jpg</ThumbFormat>
+            <ThumbHeight>120</ThumbHeight>
+            <ThumbQuality>90</ThumbQuality>
+            <ThumbTemplate>Shadow</ThumbTemplate>
+            <ThumbTemplateName>Shadow</ThumbTemplateName>
+            <ThumbWidth>160</ThumbWidth>
+        </Settings>
+        <Images>
+            <Image>
+                <url>D:\02Feb_Rutu_wd\HTML\03.Image\image\natural2.jpg</url>
+                <title>natural2</title>
+            </Image>
+            <Image>
+                <url>D:\02Feb_Rutu_wd\HTML\03.Image\image\watch5.jpg</url>
+                <title>watch5</title>
+            </Image>
+            <Image>
+                <url>D:\02Feb_Rutu_wd\HTML\03.Image\image\car1 - Copy.jpg</url>
+                <title>car1 - Copy</title>
+            </Image>
+            <Image>
+                <url>D:\02Feb_Rutu_wd\HTML\03.Image\image\car1.jpg</url>
+                <title>car1</title>
+            </Image>
+            <Image>
+                <url>D:\02Feb_Rutu_wd\HTML\03.Image\image\car2.jpg</url>
+                <title>car2</title>
+            </Image>
+            <Image>
+                <url>D:\02Feb_Rutu_wd\HTML\03.Image\image\car4.jpg</url>
+                <title>car4</title>
+            </Image>
+        </Images>
+    </Gallery>
+</VisualLightBox>
