@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Child</title>
+    <style>
+        div > p{
+            color:aqua;
+        }
+        div:hover .par{
+            /*width:50%;*/
+            margin:auto;
+            border-radius: 50%;
+            font-size: 50px;
+            background: lightseagreen;
+        }
+        .img{
+            height:250px;
+            width:50%;
+            margin:auto;
+            background-image: url(https://www.shutterstock.com/image-photo/mountains-under-mist-morning-amazing-260nw-1725825019.jpg);
+            background-size: 100% 100%;
+            border:3px solid royalblue;
+        }
+        .img:hover{
+            background-image: url(../../IMAGE/natural.jpg);
+            cursor:pointer;
+            border-radius: 50%;
+            border:none;
+        }
+    </style>
+</head>
+<body>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat tempore suscipit tempora consectetur itaque architecto illum ad eaque, sapiente nulla dolore possimus. Blanditiis, eaque maiores? Quisquam possimus officia aperiam in!</p>
+    <div>
+        <p class="par"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, architecto culpa! Qui distinctio dignissimos, odit dolorum amet consectetur repudiandae facere! Sed iure dolor numquam placeat amet sequi cumque accusamus dicta.</p>
+    </div>
+    <div class="img">
+
+    </div>
+</body>
+</html>
