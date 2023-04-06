@@ -569,6 +569,12 @@
         background:lightyellow;
         padding: 20px;
       }
+      table,th,td{
+             border 2px solid black;
+             
+
+      }
+      
     </style>
 </head>
 <body>
@@ -778,21 +784,61 @@
                     <mark>Mahadev Enterprise</mark><br>
                     </li><br>
 
-                    <li><b>Emphasized tag</b><br>The HTML <em> element defines emphasized text. The content inside is typically displayed in italic .<br><br>
+                    <li><b>Emphasized tag</b><br>The HTML < em> element defines emphasized text. The content inside is typically displayed in italic .<br><br>
                     <b>->Output:-</b><br>
                     <em>Mahadev Enterprise</em><br>
                     </li><br>
 
-                    <li><b>Inserted tag</b></li>
-                    <li><del>Deleted tag</del></li>
-                    <li>Subscript <sub>tag</sub></li>
-                    <li>Superscript <sup>tag</sup></li>
+                    <li><b>Inserted tag:-</b><br> The HTML < ins> element defines a text that has been inserted into a document.<br><br>
+                      <b>->Output:-</b><br>
+                    <ins>Mahadev Enterprise</ins><br>
+                    </li><br>
+
+                    <li><b>Deleted tag</b><br>The HTML < del> element defines text that has been deleted from a document.<br><br>
+                      <b>->Output:-</b><br>
+                    <del>Mahadev Enterprise</del><br>
+                  </li><br>
+
+                    <li><b>Subscripting tag:</b><br>The HTML < sub> element defines subscript text. Subscript text appears half a character below the normal line, and is sometimes rendered in a smaller font. Subscript text can be used for chemical formulas, like H2O.<br><br>
+                      <b>->Output:-</b><br>
+                      Mahadev <sub>Enterprise</sub><br>
+                    </li><br>
+
+                    <li><b>Superscripting tag:</b><br>The HTML < sup> element defines superscript text. Superscript text appears half a character above the normal line, and is sometimes rendered in a smaller font. Superscript text can be used for footnotes, like WWW[1]:<br><br>
+                      <b>-->Output:-</b><br>
+                      Mahadev <sup>Enterprise</sup><br>
+                    </li><br>
+                     
                 </ul>
             </p>
             <hr>
 
             <h3>Q-9.How is Cell Padding different from Cell Spacing?</h3>
-            <p>-->he difference between cellpadding and cellspacing is the space or gap between two consecutime cells.<b>cell padding</b>is the space or gap between the text / content of the cell and the edge/border of the cell .By default  cell padding valuse is 1.By default cell spacing value is 2.</p>
+            <p>--><b>cellpadding:</b><br> the space between the cell edges and the cell content.By default the padding is set to 0. the space or gap between the text / content of the cell and the edge/border of the cell ..<br><br>
+              <b>Example:</b><br>
+              <table border="2px" cellpadding="10px">
+                <thead>
+                  <th>rollno</th>
+                  <th>Firstname</th>
+                  <th>lastname</th>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>1</td>
+                    <td>Dobariya</td>
+                    <td>Rutu</td>
+                  </tr>
+                  <tr>
+                    <td>2</td>
+                    <td>Savaliya</td>
+                    <td>Mona</td>
+                  </tr>
+                </tbody>
+              </table>
+
+                
+
+              cellpadding and cellspacing is the space or gap between two consecutime cells.<b>cell padding</b></p>
             <hr>
 
             <h3>Q-10 How can we club two or more rows or columns into a single row or column in an HTML table?</h3>
