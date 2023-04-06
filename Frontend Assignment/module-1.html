@@ -937,28 +937,93 @@
             <hr>
 
             <h3>Q-12 How to create a Hyperlink in HTML?</h3>
-            <p>--> HTML links are hyperlinks.Select the text or picture that you want to display as a hyperlink.You can click on a link and jump to another document.use the <b><a > anchor tag.</a></b></p>
+            <p>--> HTML links are hyperlinks.Select the text or picture that you want to display as a hyperlink.You can click on a link and jump to another document.use the <b><a > anchor tag.</a></b>The target attribute specifies where to open the linked document.<br>
+              <ol>
+                
+                  <li><b>_self:</b>Default. Opens the document in the same window/tab as it was clicked</li>
+                  <li><b>_parent:</b>Opens the document in a new window or tab</li>
+                  <li><b>_black:</b> Opens the document in the parent frame</li>
+                  <li><b>_Top:</b> Opens the document in the full body of the window</li>
+                
+              </ol>
+              <b>Example:</b><br>
+             < a href="https://www.flipkart.com" target="_self">Flipkart< /a><br>
+             < a href="https://www.flipkart.com" target="_parent">Flipkart< /a><br>
+             < a href="https://www.flipkart.com" target="_blank">Flipkart< /a><br>
+             < a href="https://www.flipkart.com" target="_top">Flipkart< /a><br>
+            
+             <b>Output:</b><br>
+             <a href="https://www.flipkart.com" target="_self">Flipkart</a><br>
+             <a href="https://www.flipkart.com" target="_parent">Flipkart</a><br>
+             <a href="https://www.flipkart.com" target="_blank">Flipkart</a><br>
+             <a href="https://www.flipkart.com" target="_top">Flipkart</a><br>
+            </p>
             <hr>
 
             <h3>Q-13 What is the use of an iframe tag?</h3>
-            <p>-->The<b>&lt;iframe&gt;</b> tag specifies an inline frame.An inline frame is used to embed another document within the current HTML document.</p>
+            <p>-->The<b>&lt;iframe&gt;</b> tag specifies an inline frame.An inline frame is used to embed another document within the current HTML document.<br></p>
             <hr>
 
+           
+
             <h3>Q-14 What is the use of a span tag? Explain with example? </h3>
-            <p>-->The<b>Span</b>tag is an inline container used to mark up a part of a text, or a part of a document.span  tag  similar to div tag,The &ltspan&gt; is block-level element and &ltspan&gt; tag is inline-element &ltspan&gt;.
-            </p>
+            <p>-->The<b>Span</b>tag is an inline container used to mark up a part of a text, or a part of a document.span  tag  similar to div tag,The &ltspan&gt.The <span> The span tag is easily styled by CSS or manipulated with JavaScript using the class or id attribute.<br><br>
+              <b>Example:</b><br>
+              < span style="color: black; background-color: burlywood;">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam labore, quisquam deleniti eaque ipsa fuga illo qui, aliquid minus debitis, aut magni magnam fugiat accusantium. Consectetur nemo ipsam beatae nulla. < /span><br>
+             
+              <b>Output:</b><br>
+              <span style="color: black; background-color: burlywood;">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam labore, quisquam deleniti eaque ipsa fuga illo qui, aliquid minus debitis, aut magni magnam fugiat accusantium. Consectetur nemo ipsam beatae nulla. </span>
+              
+
 
             <h3>Q-15 How to insert a picture into a background image of a web page?</h3>
-            <p>-->We can insert a picture into a background image of a web page css property <b>"background-image"</b></p>
+            <p>-->We can insert a picture into a background image of a web page css property <b>"background-image"</b><br><br>
+              <b>Example:-:</b><br>
+              < div style="background-image:url(../IMAGE/game3.jpg); height:200px;width: auto; background-repeat: no-repeat;">
+              < /div> <br>
+              <b>Output:</b>
+            <div style="background-image:url(../IMAGE/game3.jpg); height:200px;width: auto; background-repeat: no-repeat;">
+            </div>
+            
+          </p>
 
 
             <h3>Q-16 How are active links different from normal links?</h3>
-            <p>-->Normal links are links which are there on the page and have not been clicked yet. Active links are those links, which have just been clicked at that effect.</p>
-            <hr>
+            <p>--><b>Normal Links:</b>  Normal links are links which are there on the page and have not been clicked yet.<br>
+               --><b>Active Links:</b>Active links are those links, which have just been clicked at that effect.<br>
+                   <b>Output:</b><br>
+                   <a href="https://www.flipkart.com"> visit  Flipkart.com !</a>
+                  </p>
+                  <hr>
+                 
+. 
 
             <h3>Q-17 What are the different tags to separate sections of text?</h3>
-            <p>-->br, p, blockquote tags to separte sections of text</p>
-            <hr>
+            <p>-->br, p, blockquote tags to separte sections of text here: <br>
+            --><b>< br> tag:</b> It is used to separate the line of text. It breaks the current line and shifts the flow of the text to a new line.<br>
+                   &nbsp;&nbsp;&nbsp;&nbsp;<b>Example:</b><br>
+                   &nbsp;&nbsp;&nbsp;&nbsp;< i>Mahadev Enterprise< /i><br>
+                   &nbsp;&nbsp;&nbsp;&nbsp;< i>Rajkot< /i><br>
+                   &nbsp;&nbsp;&nbsp;&nbsp;<b>Output:</b><br>
+                   &nbsp;&nbsp;&nbsp;&nbsp;<i>Mahadev Enterprise </i><br>
+                   &nbsp;&nbsp;&nbsp;&nbsp;<i>Rajkot</i><br><br>
+
+          --><b>< p> tag:</b>This tag is used to write a paragraph of text.<br>
+                  &nbsp;&nbsp;&nbsp;&nbsp;<b>Example:</b><br>
+                  &nbsp;&nbsp;&nbsp;&nbsp;< p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, aliquam officia est beatae unde labore quasi odio a distinctio totam aperiam. Necessitatibus molestias nam doloremque eveniet, quaerat deserunt labore corporis.< /p><br><br>
+                  &nbsp;&nbsp;&nbsp;&nbsp;<b>Output:</b><br>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, aliquam officia est beatae unde labore quasi odio a distinctio totam aperiam. Necessitatibus molestias nam doloremque eveniet, quaerat deserunt labore corporis.</p><br>
+
+        --><b>< blockquote> tag:</b>This tag is used to define large quoted sections.<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;<b>Example:</b><br>
+                &nbsp;&nbsp;&nbsp;&nbsp;< blockquote>Mahadev Enterprise< /blockquote><br>
+                &nbsp;&nbsp;&nbsp;&nbsp;<b>Output:</b><br>
+                <blockquote>Mahadev Enterprise</blockquote><br>
+            
+              </p>
+              <hr>
+
+
 
             <h3>Q-18 What is SVG?</h3>
             <p>-->SVG stands for Scalable Vector Graphics.VG defines vector-based graphics in XML format.Every element and every attribute in SVG files can be animated.SVG is a W3C recommendation.VG integrates with other W3C standards such as the DOM and XSL</p>
@@ -966,16 +1031,72 @@
 
             <h3>Q-19 What is difference between HTML and XHTML?</h3>
             <p><ol>
-                <li><b>Html:</b>HTML stands for Hyper Text Markup Language.HTML is the standard markup language for creating Web pages.HTML elements tell the browser how to display the content.</li>
+                <li><b>Html:</b>HTML stands for Hyper Text Markup Language.HTML is the standard markup language for creating Web pages.HTML elements tell the browser how to display the content.</li><br>
+                <b>Example:</b><br>
+                < !DOCTYPE html><br>
+                < html><br>
+                < head><br>
+                < title> < /title><br>
+                < /head><br>
+                < body><br>
+                  content here..<br>
+                < /body><br>
+                < /html> <br>
+                
                 <li><b>Xtml:</b>XHTML stands for EXtensible HyperText Markup Language.XHTML is a stricter, more XML-based version of HTML.XHTML is HTML defined as an XML application.XHTML was developed to make HTML more extensible and flexible to work with other data formats (such as XML). In addition, browsers ignore errors in HTML pages, and try to display the website even if it has some errors in the markup. So XHTML comes with a much stricter error handling.</li>
-            </ol>
-                </p>
-                <hr>
+                <b>Example:</b><br>
+                < !DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+                 "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd"><br>
+                < html xmlns="http://www.w3.org/1999/xhtml"><br>
+                < head><br>
+                < title>Title of document</title><br>
+                 < /head><br>
+                 < body><br>
+                  some content here...v
+                < /body><br>
+                < /html><br>
+                  </ol>
+                  </p>
+                 <hr>
+                   
+               
+
+                
 
                 <h3>Q-20 What are logical and physical tags in HTML?</h3>
-                <p><b>-->Physical Tags</b> are used in HTML to provide actual physical formatting to the text. Following are the Physical tags commonly used in HTML.<b>example:</b>&ltb&gt; , &ltbig&gt;.<b>logical tags</b> are used in HTML to display the text according to the logical styles. Following are the Logical tags commonly used in HTML.<b>Example:</b>&ltstorng&gt; ,&lt;ins&gt;</p>
+                <p>--><b>Physical Tags:-</b> Physical tags are used in HTML to provide actual physical formatting to the text. Following are the Physical tags commonly used in HTML.<br>
+                --><b>Example:</b><br>
+                  < big> Tops Technologies Pvt Ltd.< /big><br>
+                  < i>Tops Technologies Pvt Ltd.< /i><br>
+                  < small>Tops Technologies Pvt Ltd.< /small><br>
+              <b>Output:</b><br>
+                  <big> Tops Technologies Pvt Ltd.</big><br>
+                  <i>Tops Technologies Pvt Ltd.</i><br>
+                  <small>Tops Technologies Pvt Ltd.</small><br><br>
+
+                --><b>logical tags:-</b> Logical tags are used in HTML to display the text according to the logical styles. Following are the Logical tags commonly used in HTML.&ltstorng&gt; ,&lt;ins&gt;<br>
+              --><b>Example:</b><br>
+                    < strong> this is strong text< /strong><br>
+                    < em>this is Emphasized  text< /em><br><br>
+                    < ins>this is inserted text.</ins><br>
+            <b>Output:</b><br>
+                    <strong> this is strong text.</strong><br>
+                    <em>this is Emphasized  text.</em><br>
+                    <ins>thi is inserted text.</ins>
+                    
+              
+              </p>
                 <hr>
+
+          </body>
+          </html>                 
+
+                  
                 
+                
+<<<<<<< HEAD
 </body>
 </html>
 >>>>>>> d650763 (hhhh)
+=======
+>>>>>>> a22c132 (hhh)
