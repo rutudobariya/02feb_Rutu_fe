@@ -834,19 +834,106 @@
                     <td>Mona</td>
                   </tr>
                 </tbody>
-              </table>
+              </table><br><br>
 
-                
-
-              cellpadding and cellspacing is the space or gap between two consecutime cells.<b>cell padding</b></p>
+              <b>cellspacing:</b><br>Cell spacing is the space between each cell.By default the space is set to 2 pixels.<br><br>
+              <b>Example:</b><br>
+              <table border="2px" cellpadding="10px">
+                <thead>
+                  <th>rollno</th>
+                  <th>Firstname</th>
+                  <th>lastname</th>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>1</td>
+                    <td>Dobariya</td>
+                    <td>Rutu</td>
+                  </tr>
+                  <tr>
+                    <td>2</td>
+                    <td>Savaliya</td>
+                    <td>Mona</td>
+                  </tr>
+                </tbody>
+              </table><br><br>
+              
+            </p>
             <hr>
 
             <h3>Q-10 How can we club two or more rows or columns into a single row or column in an HTML table?</h3>
-            We can club two or more rows into a single row in table using  "rowspan"attribute and two or more columns into a single column in table by using  "colspan"attribute.</p>
+              -->We can club two or more rows into a single row in table using  "rowspan"attribute and two or more columns into a single column in table by using  "colspan"attribute.<br><br>
+              <b>Rowspan:</b><br>The rowspan attribute specifies the number of rows a cell should span.<br>
+              <B>Syntax:</B><br>
+            --> < td rowspan=" number">< /td><br>
+              <b>Example:</b><br>
+              <table border="2px" cellpadding="10px">
+                <thead>
+                  <th>rollno</th>
+                  <th>Name</th>
+                  <th>Totalmarks</th>
+                  <th>Grade</th>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>1</td>
+                    <td>Rutu</td>
+                    <td>85%</td>
+                    <td rowspan="2">A+</td>
+                  </tr>
+                  <tr>
+                    <td>2</td>
+                    <td>mona</td>
+                    <td>80%</td>
+                  </tr>
+                </tbody>
+              </table><br><br>
+            </p>
+
+            <b>Colspan:</b><br>--> make a cell span over multiple columns, use the colspan attribute<br>
+            <b>Syntax:</b><br>
+            < td colspan=" value">< /td><br>
+            <b>Example:</b><br>
+              <table border="2px" cellpadding="10px">
+                <thead>
+                  <th colspan="2">Language And Framework</th>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>HTML</td>
+                    <td>CSS</td>
+                    </tr>
+                    <tr>
+                    <td>JavaScript</td>
+                    <td>Bootstrap</td>
+                  </tr>
+                </tbody>
+              </table><br><br>
             <hr>
 
             <h3>Q-11 What is the difference between a block-level element and an inline element?</h3>
-            <p>--><b>A block-level element</b> always starts on a new line, and the browsers automatically add some space (a margin) before and after the element.Two commonly used block elements are: &ltp&gt; and &ltdiv&gt;.<b>Inline element</b>An inline element does not start on a new line.An inline element only takes up as much width as necessary.inline element &ltspan&gt; tag.</p>
+            <p>--><b>A block-level element</b> always starts on a new line, and the browsers automatically add some space (a margin) before and after the element.Two commonly used block elements are: &ltp&gt; and &ltdiv&gt;.<br><br>
+              <ol>
+                <li>the < p> element defines a paragraph in an HTML document.</li>
+                <li>the < div> element defines a division or a section in an HTML document..</li>
+              </ol>
+              <b>Example:</b><br>
+              < p style=" background-color: blue;">This is paragraph!< /p><br>
+              < div style=" background: lightcoral;">Hello World!< /div><br>
+              <b>Output:</b><br>
+              <p style="background-color: blue;">This is paragraph!</p>
+              <div style="background: lightcoral;">Hello World!</div><br>
+               
+              <b>Inline element:</b><br>
+            -->An inline element does not start on a new line.An inline element only takes up as much width as necessary.inline element &ltspan&gt; tag.<br><br>
+              <ul>
+                <li>This is a < span> element inside a paragraph.</li>
+              </ul>
+              <b>Example:</b><br>
+              < span style="background-color: cadetblue;">Hello World!< /span><br>
+              <b>Output:</b><br>
+              <span style="background-color:cadetblue;">Hello World!</span><br>
+            </p>
             <hr>
 
             <h3>Q-12 How to create a Hyperlink in HTML?</h3>
