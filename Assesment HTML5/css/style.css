@@ -1,0 +1,305 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+  /* color:white; */
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+   
+
+}
+.main_box{
+position:absolute;
+/*background: url(../assesment/dream-pulse-header.jpg)   no-repeat;
+background-size:cover; */
+height:550px ;
+width: 100%;
+
+}
+.border1,.border2 {
+    border: 2px solid whitesmoke;
+    position: absolute;
+    height: 150px;
+    width: 150px;
+    top:30px;
+    left:30px;
+  }
+  
+  .border2 {
+    top: 10px;
+    left: 10px;
+  }
+.main_box .sidebar_menu{
+
+    height: 2000px;
+    width: 280px;
+    background-color:#363636;
+    display:flexbox;
+    /* display:flex; */
+     opacity:0.6;
+   
+    box-shadow: 0  0 6px rgba(255, 255, 255, 0.5); 
+    /* filter: blur(1px); */
+    position: fixed;
+    top:0px;
+    
+}
+.sidebar_menu a{
+    text-decoration: none;
+    color:#fff;
+}
+.sidebar_menu :hover a{
+    color: aliceblue;
+}
+
+.sidebar_menu .menu a{
+  color:#fff;
+  font-size: 20px;
+}
+.sidebar_menu ul{
+margin-left: 100px; 
+    line-height: 50px;
+    margin-top: 180px;
+}
+.sidebar_menu  li
+{
+    list-style: none;
+    
+}
+
+.socialmedia{
+    margin-left:30px;
+    margin-top: 50px;
+    padding:0px 40px;
+    
+   
+}
+.socialmedia a{
+    padding:2px;
+}
+footer{
+    font-size:15px;
+    line-height: 30px;
+    position: fixed;
+    bottom: 0;
+    margin-left: 60px;
+   margin-top: 30px;
+}
+
+.intro img{
+    
+    height:650px;
+    width: 100%;
+  background: transparent;
+    background-size: cover;
+    margin-top: 0%;
+}
+
+.container{
+    height: 380px;
+    width: 100%;
+    border : 1px solid transparent;
+    display: flex;
+  
+}
+.container1, .container2{
+    height: 300px;
+    width: 100%;
+    background-color:white;
+    /* border: 1px solid gray; */
+    margin:40px 50px 200px 300px;
+    color:black;
+}
+.container1 i{
+    font-size: 85px;
+    padding:5px ;
+    
+}
+.about{
+    color:#2b4b82;
+    font-size: 25px;
+    font-family:  Calibri;
+    text-align: left;
+    padding-left:30px;
+    padding-top:25px;
+   font-weight:900;
+
+}
+.contact{
+    color:#2b4b82;
+    font-size: 25px;
+    font-family:  Calibri;
+    text-align:left;
+     padding-left:-40px;
+    padding-top:20px;
+  
+    font-weight:900;
+}
+
+.text1{
+    color:gray;
+    padding:0px 0px 0px 5px;
+padding-top:10px;
+/* font-weight: 400; */
+    font-family: Calibri;
+    font-size:16px;
+}
+
+.container2{
+    
+        color:gray;
+        padding:0px 0px 0px 20px;
+    padding-top:-5px;
+    
+        font-family: Calibri;
+        font-size:15px;
+        /* font-weight: 400; */
+}
+
+.container2 i{
+    font-size: 70px;
+    padding-left:150px;
+    padding:0px 0px 0px 0px;
+
+}
+.text3{
+    color:gray;
+    padding:0px 0px 0px -5px;
+    /* font-weight: 400; */
+    padding-top:-5px;    
+    font-family:Calibri;
+    font-size:15px;
+}
+.work{
+    height:350px;
+    width:60%;
+    margin:2px;
+    margin:0px 0px 0px 300px;
+    border: 10px double lightgray;
+    display: flex;
+
+
+}
+.box img{
+    height: 250px;
+    width:180px;
+    padding: 40px auto;
+    margin: 50px;
+    margin-left: -60px;
+}
+
+.box1 img{
+    height: 250px;
+    width:180px;
+    padding: 20px auto;
+    margin: 50px;
+   margin-left: -38px;
+}
+
+.box2 img{
+    height: 250px;
+    width:180px;
+    padding: 20px auto;
+    margin: 50px;
+    margin-left:-38px;
+}
+
+.box3 img{
+    height: 250px;
+    width:180px;
+    padding: 20px auto;
+    margin: 50px;
+    margin-left:-38px;
+}
+
+
+.banner img{
+    border:2px solid gray;
+    margin:20px 0px 20px 300px;
+    /* position: absolute; */
+    
+}
+
+.shoopy1{
+    display: flex;
+    margin:0px 0px 0px 330px;
+    }
+.banner1 img{
+    border: 1px solid gray;
+    height: 80px;
+    width:150px;
+    margin:10px;
+    margin-top:20px;
+    margin-left:20px;
+    padding:10px;
+}
+
+.shoopy2{
+    display: flex;
+    margin:0px 0px 0px 330px;
+   padding-top:10px;
+    }
+.banner2 img{
+    border: 1px solid gray;
+    height: 80px;
+    width:150px;
+    margin:10px;
+    margin-top:20px;
+    margin-left:20px;
+    padding:10px;
+}
+.web{
+    display: flex;
+
+  }
+
+.shoopy3{
+    height: 200px;
+    width:200px;
+
+}
+.border3,.border4 {
+    border: 1px solid gray;
+    position:absolute;
+    height: 230px;
+    width: 380px;
+    top:1850px;
+    left:27%;
+   
+  }
+  
+  .border4 {
+    top: 10px;
+    left: 10px;
+  }
+ 
+ .talk{
+    color:black;
+    padding: 10px 20px;
+/* font-weight: 400; */
+    font-family: Calibri;
+    font-size:17px;
+ }
+
+ .talk1{
+    height: 300px;
+    width: 300px;
+    border:1px solid transparent;
+    margin:0px 0px 0px 650px;
+    padding:40px;
+    
+    }
+ input{
+    border-top: 10px;
+    border-left:0;
+    border-bottom: 0;
+    border-right: 0;
+    font-size: 15px;
+    }
+
+
+ .dream{
+     height:80px;
+     width:80px;
+ }
