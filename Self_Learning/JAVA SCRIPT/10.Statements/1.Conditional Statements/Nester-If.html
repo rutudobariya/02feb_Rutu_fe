@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nested if</title>
+</head>
+<body>
+    <p> Nested if multiple condition </p>
+    <script>
+        let a=50, b=80, c=90;
+        if(a>b){
+        if(a>c){
+            console.log("a is gretaer than b and c");
+        }
+        else{
+            console.log("b is greter than a and b");
+        }
+        }
+
+        else{
+            if(b > c)
+            {
+                console.log("b is greter than a and c");
+            }
+            else{
+                console.log("c is greter than b ");
+            }
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>swapping</title>
+</head>
+<body>
+     <p id="para"></p>
+    <button class="but" id="but" onclick="add()">+</button>
+    <button class="but" id="but" onclick="sub()">-</button>
+    <button class="but" id="but" onclick="mul()">*</button>
+    <button class="but" id="but" onclick="div()">/</button>
+    <button>Swap</button>
+    <script>
+        let a = 5;
+        let b =parseInt(prompt("enter a value...."));
+        console.log(typeof(b));//payal
+        let but =document.getElementById("but");
+        let p =document.getElementById("para");
+        // document.addEventListener('click',() =>{
+        //     a
+        // })
+        function add(){
+        // document.write(a + b);
+        p.innerHTML = a+b;
+        }
+        function sub(){
+        // document.write(a - b);
+        p.innerHTML = a-b;
+        } function mul(){
+        // document.write(a * b);
+        p.innerHTML = a*b;
+        } function div(){
+        // document.write(a / b);
+        p.innerHTML = a/b;
+        }
+
+        function swap()
+        {
+            a = b;
+            b = a;
+            document.write("after swapping:a = "+a +",y ");
+        }
+        swap();
+    </script>
+</body>
+</html>

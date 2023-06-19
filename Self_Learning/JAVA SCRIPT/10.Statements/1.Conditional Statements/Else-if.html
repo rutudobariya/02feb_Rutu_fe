@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Else-if</title>
+</head>
+<body>
+    <img src="https://img.freepik.com/free-photo/cartoon-character-with-yellow-jacket-sunglasses_71767-101.jpg?w=2000" alt="" height="200px" width="200px">
+<button>Change image</button>
+
+<script>
+    const img = document.querySelector('img');
+    const btn = document.querySelector('button');
+    btn.addEventListener('click', () => {
+        if(img.src == "https://easydrawingguides.com/wp-content/uploads/2016/12/how-to-draw-a-cute-cartoon-cat-featured-image-1200.png")
+          {
+            img.src = "https://easydrawingguides.com/wp-content/uploads/2016/12/how-to-draw-a-cute-cartoon-cat-featured-image-1200.png";
+
+          }
+          else if (img.src == "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRES3QCQb1WjDM8obSXRlF3-FOnEqb66FDD6w&usqp=CAU")
+            {
+                img.src = "https://images.unsplash.com/photo-1575936123452-b67c3203c357?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aW1hZ2V8ZW58MHx8MHx8fDA%3D&w=1000&q=80";
+            }
+            else{
+                img. src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSus7K6uN2jdBRHM2LhBtC7LAfrgTzmyMOg4GX8_uDh&s";
+            }
+
+    })
+    img.style.height ="200px";
+    img.style.width ="200px";
+    
+
+</script>
+
+</body>
+</html>

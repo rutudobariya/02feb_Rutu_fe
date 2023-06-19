@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>input</title>
+    <style>
+        form{
+            border:  2px solid blue;
+            border-radius: 15px;
+            margin: 0px 15px;
+            padding: 0 130px;
+        }
+        div{
+            margin: 20px auto;
+        }
+        input[id="sub"]
+        {
+            width: 150px;
+        }
+        :focus{
+            outline: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="val1">
+        <input type="text" name="value 1" id="val1" placeholder="Enter 1st value">
+    </div>
+    <div class="val2">
+        <input type="text" name="value 2" id="val2" placeholder="Enter the 2nd value">
+    </div>
+    <div class="ans">
+        <input type="text" name="answer" id="ans" placeholder="Your answer is......" >
+        <!-- <label for="ans" id="ans">answer is:</label> -->
+        
+    </div>
+    <div class="add">
+        <button onclick="add()">Addition</button>
+    <!--</div>
+
+    <div class="sub">-->
+        <button onclick="sub()">subtraction</button>
+    <!--</div>
+
+    <div class="mul">-->
+        <button onclick="mul()">Multiplication</button>
+    <!--</div>
+
+    <div class="div">-->
+        <button onclick="div()">divison</button>
+    <!--</div>
+
+    <div class="mod">-->
+        <button onclick="mul()">Module</button>
+    <!--</div>
+
+    <div class="mod">-->
+        <button onclick="inc()">Increment</button>
+    <!--</div>
+
+    <div class="mod">-->
+        <button onclick="dec()">Decrement</button>
+    </div>
+
+    <script>
+        let val1 = parseInt(document.getElementById('val1').value);
+        let val2 = parseInt(document.getElementById('val2').value);
+        let ans = document.getElementById('ans');
+
+        function add()
+        {
+            
+            ans.value = val1 + val2 ;
+
+
+        }
+
+        
+        function sub()
+        {
+            ans.value = val1 - val2 ;
+            
+
+        }
+
+        function mul()
+        {
+            ans.value = val1 * val2 ;
+        }
+
+        function div()
+        {
+            ans.value = val1 / val2 ;
+        }
+
+        function mod()
+        {
+            ans.value = val1 % val2 ;
+        }
+
+        function inc()
+        {
+          ++val1;
+          ans.value = val1;
+        }
+
+        function dec()
+        {
+            --val2;
+            ans.value = val2;
+        }
+        //add();
+    </script>
+</body>
+</html>
