@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pesudo-Element</title>
+    <style>
+        p::after{
+            content:'End!';
+            margin: 5px;
+            background: #666;
+            /*border:3px solid black;*/
+        }
+        /*p::before{
+            content:'Start!';
+            margin-right: 5px;
+            background: #666;
+        }*/
+        p::first-letter{
+            font-size:50px;
+        }
+        p::first-line{
+            background: lightseagreen;
+        }
+        ::selection{ 
+            background-color: lightcoral;
+            color:#000;
+        
+        
+        
+        } 
+        ul li{
+            color:maroon;
+            list-style: square;
+        }
+        ::marker{
+            color:gold;
+        }
+    </style>
+</head>
+<body>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde excepturi saepe est eaque iure in aliquam sint facere, delectus, laborum quisquam et explicabo nisi, veniam quas sequi temporibus necessitatibus! Totam?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium modi temporibus aliquam nisi necessitatibus libero voluptatem neque iste fuga vero vitae voluptas nam quia, dolore dignissimos praesentium. A, dolorum officia.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem neque nihil ex, excepturi non laborum officiis sequi natus minus incidunt aut amet, a magnam placeat nam fugit laboriosam unde dolores?</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci tempore deleniti asperiores ducimus? Incidunt vero nam iure earum! Magnam aliquid quos modi corrupti ipsum dolores alias facilis fugit dolore laboriosam.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt perspiciatis delectus eos exercitationem eum, temporibus voluptatibus voluptates! Pariatur dignissimos non voluptas excepturi ullam dolores molestiae incidunt. Optio repellat quidem recusandae.</p>
+    <ul>
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+    </ul>
+</body>
+</html>

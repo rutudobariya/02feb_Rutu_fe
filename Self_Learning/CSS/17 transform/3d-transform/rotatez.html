@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            height: 200px;
+            width: 200px;
+            margin: 20px auto;
+            background: powderblue;
+            transition: 1.5s;
+            backface-visibility: hidden;
+        }
+        .parent{
+            background: transparent;
+            position: relative;
+        }
+        .child{
+            background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4iY6dz6wWdzxEMY2wWff5Rboh9pGOFzmcfg&usqp=CAU);
+        /* transform: rotateX('180deg'); */
+            margin: 0;
+        background-size: 100% 100%;
+        position: absolute;
+        transition: 1s;
+        }
+        .rotatex{
+            transform: rotateZ(0deg);
+        }
+        .rotate{
+            transform: rotatez(0deg);
+        }
+        .parent:hover .rotate{
+            transform: rotatez(180deg);
+        }
+        .parent:hover.rotatex{
+            transform:rotateZ(0deg);
+        }
+    </style>
+</head>
+<body>
+   <div class="original">Original</div>
+   <div class="parent">
+    <div class="child rotatex">rotatex</div>
+    <div class="child rotate">rotate</div>
+   </div>
+</body>
+</html>

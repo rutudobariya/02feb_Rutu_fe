@@ -1,0 +1,36 @@
+@media (max-width:500px)
+{
+    .fa{display: block; position: relative;}
+    ul li{display: none; position: absolute;}
+    .fa:hover + ul li{
+        position: fixed;
+        display: block;
+    }
+    div{
+        background-color: crimson;
+    }
+}
+@media (max-width:500px) and (min-width:700px){
+    .fa{display: block;}
+    .fa:hover + ul li{
+        display: block;
+    }
+    ul li{
+        display: none;
+    }
+    div{
+        background-color: lightcoral;
+    }
+}
+@media (min-width:700px) and (max-width:500px)
+{
+    div{
+        background-color: cyan;
+    }
+}
+@media (min-width:1300px)
+{
+    div{
+        background-color: ghostwhite;
+    }
+}

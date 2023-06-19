@@ -1,0 +1,8 @@
+div{
+    background-image: url(../../IMAGE/image1.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: bottom;
+    height: 250px;
+    width: 250px;
+}

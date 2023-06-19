@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inline</title>
+    <style>
+        ul{
+           height: 70px;
+           background: #fff;
+        }
+        ul li{
+            list-style: none;
+            display: inline;
+            margin: 5px;
+            padding: 50px;
+        }
+        ul li a{
+            text-decoration: none;
+            color:#317755;
+
+        }
+        .log a{
+            color: #fff;
+
+        }
+        ul li:hover a{
+            cursor: wait;
+        }
+        .store{
+            position: relative;
+        }
+        .store .locate{
+            height: auto;
+            background-color: #00572d;
+            position: absolute;
+            display: none;
+            top: 70px;
+            left: 50px;
+        }
+        .store .locate li{
+            display: block;
+            margin: 5px;
+            padding: 15px;
+            color: #fff;
+
+        }
+        .store:hover .locate{
+            display:block;
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li class="store"><a href="#">Order Online</a>
+            <img src="https://lapinozpizza.in/assets/wla_new/lapinoz/img/deals-banner.jpg" alt="" style="height: 150px;">
+            <ul class="locate">
+                <li>rajkot</li>
+                <li>ahmedabad</li>
+                <li>morbi</li>
+            </ul>
+        
+        </li>
+        <li><a href="#">Store Selector</a></li>
+        <li><a href="#">Franchise Enquiry</a></li>
+        <li><a href="#">Our store</a></li>
+        <li><a href="#">Contact us</a></li>
+        <li class="log"><a href="#">Login</a></li>
+    </ul>
+</body>
+</html>

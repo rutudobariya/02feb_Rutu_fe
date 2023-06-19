@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position</title>
+    <style>
+        .container{
+            height: 1500px;
+          windows: 100%;
+          background-color: aqua;
+        }
+        .static{
+            height: 250px;
+            width: 250px;
+            background: #666;
+            position: static;
+            top: 50px;
+        }
+        .fixed{
+            height: 120px;
+            width: 150px;
+            background-color: burlywood;
+            position: fixed;
+            top:150px;
+            left:70%;
+        }
+        .sticky{
+          height: 120px;
+           width: 50%; 
+        background-color: brown;
+          top: 0;
+          left:50px;
+        }
+        .parent{
+            height: 250px;
+            width: 250px;
+            border: solid;
+            margin: auto;
+            position: relative;
+            overflow: hidden;
+        }
+        .ch-1, .ch-2{
+            height: 200px;
+            width: 200px;
+            position: absolute;
+        }
+        .ch-1{
+            background: yellowgreen;
+            top:0 px;
+            right:0;
+        }
+        .ch-2{
+            background-color: blueviolet;
+            left:0px;
+            bottom: 0   ;
+        }
+    </style>
+</head>
+<body>
+  <div class="container">Main container
+    <div class="static">Static Posiion</div>
+    <div class="fixed">Fixed ppositon</div>
+    <div class="sticky">Stickey Position</div>
+    <div class="parent"><!--Relative-->
+      <div class="ch-1">abosulate-1</div>
+      <div class="ch-2">absoulate-2</div>
+    </div>
+  </div>  
+</body>
+</html>
