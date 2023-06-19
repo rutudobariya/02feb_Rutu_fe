@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background-color: #262a2f;;
+}
+.box{
+    background: #fff;
+    padding: 30px 120px; /* top bootom*/
+    width: 550px;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%); /*center of webpage*/
+    text-align: center;
+    border-radius: 10px;
+}
+.logo{
+    width: 30px;
+    margin-bottom: 20px;
+}
+
+.box-h2{
+    margin-bottom:20px;
+}
+.box button img{
+    width: 18px;
+    margin-right: 10px;
+
+}
+.box button{
+    width: 100%;
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+    border-radius: 30px;
+    border:1px solid #999;
+    font-weight: 500;
+    cursor: pointer;
+}
+.box hr{
+    border: 0;
+    height: 1px;
+    background:#c2c2c2;
+    margin: 5px;
+}
+.box span{
+    display: block;
+    width: 40px;
+    margin: auto;
+    background: white;
+    font-size: 14px;
+    margin-top: -16px;
+}
+.box input{
+    widows: 100%;
+    background: transparent;
+    border:1px solid #999;
+    outline: 0;
+    padding: 15px 10px;
+    border-radius: 4px;
+    margin: 10px 0px;
+}
+::placeholder{
+font-size: 500;
+color:#333;
+}
+.box form button{
+    background:#000;
+    color:#fff;
+    border:0;
+    margin-bottom:15px;
+}
+.box p{
+    text-align: left;
+    font-size: 14px;
+    color:#555;
+    margin:40px 0px 50px;
+}
+.box p a{
+    text-decoration: none;
+    color:#359cf0;
+}

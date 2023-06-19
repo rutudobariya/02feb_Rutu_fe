@@ -1,0 +1,16 @@
+*{
+    margin: auto;
+    text-align: center;
+}
+h1{
+    margin-top: 20px;
+}
+table,th,td{
+    height: 40px;
+    width: 1000px;
+    border: 1px solid brown;
+    border-collapse: collapse;
+}
+table{
+    border:5px outset black;
+}
