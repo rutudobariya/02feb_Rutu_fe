@@ -1,0 +1,141 @@
+/* header section start*/
+*{
+    margin:0;
+    padding:0;
+    font-family:Arial, Helvetica, sans-serif;
+    /* color: #fff; */
+    box-sizing: border-box;
+}
+header{
+    height:120px;
+    width:100%;
+    top:0%;
+    background-color:black;
+position: fixed;
+
+
+}
+.logo{
+   height:50px;
+    width:20%;
+    float:left;
+    background-color:transparent;
+    
+}
+.logo img{
+    height:115px; 
+    width:200px;
+}
+.menu{
+    height:60px;
+    width: 70%;
+    /* background: black; */
+    float:right;
+    
+}
+.menu a{
+    text-decoration: none;
+    color: #fff;
+}
+ul input:hover{
+    cursor: pointer;
+}
+ul{
+    height: 100px;
+    text-align: center;
+    line-height: 140px;
+    font-size:20px;
+    font-weight: 700;
+  margin:0;
+  color:#fff;
+}
+ul li{
+    list-style: none;
+    display: inline;
+    margin:5px;
+    padding:5px;
+}
+ ul li:hover a{
+    color:#b2744c;
+}
+/* header section end/*
+
+
+/* Home section start*/
+#home{
+    width:100%;
+    height:100vh;
+    background-image: url(../image/coffee-beans-dark-background-top-view-coffee-concept.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:fixed;
+   margin-top: 100px;
+}
+#home .content h3{
+   margin:0px 0px 50px 50px;
+   padding-top:140px;
+   font-size: 50px;
+   color:#fff;
+} 
+
+#home .content p
+{
+    margin:0px 0px 50px 50px;
+    font-size:20px;
+    word-spacing:1px;
+    color:#fff;
+   }
+#btn {
+    height: 50px;
+    width: 150px;
+    background-color: black;
+    opacity:0.6;
+    color:white;
+    margin-left:50px;
+    font-size: 20px;
+   border-radius: 40px;
+   border:5px double white;
+    
+}
+#btn  :hover {
+    color:#b2744c;
+}
+#btn a{
+    text-decoration: none;
+    color: #fff;
+}
+/* header section end*/
+
+/*footer section start*/
+.container{
+    height:200px;
+    width: 100%;
+    background-color: black;
+    display:grid;
+    padding-left:140px;
+    padding-top:20px; 
+    grid-template-columns: 250px 250px 250px 250px;
+    column-gap:10px;
+    position:relative;
+   
+}
+
+.explore a{
+    text-decoration: none;
+    color:white;
+    /* color:#fff; */
+}
+.explore h3
+{
+    font-size:25px;
+   
+}
+.explore p
+{
+   font-size:medium;
+   
+}
+.explore p :hover{
+    color: #b2744c;
+}
+/* footer section end*/
