@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Canvas</title>
+</head>
+<body>
+    <h2>example of canvas:</h2>
+    <p>The HTML < canvas> element is used to draw graphics on a web page</p>
+    <p> The < canvas> element is only a container for graphics. You must use JavaScript to actually draw the graphics.
+    <p> The < canvas> Raster based (composed pixel).</p>
+    <p> The canvas has poor scaliblity not suitable resoultion.</p>
+    <p> the canvas element image file extension .JPG & .PNG</p>
+    </p>
+
+    <canvas id="mycan" height="300" width="300" style="background-color:lightgray ; "></canvas>
+    <script>
+        var can = document.getElementById("mycan");
+        var ctx = can.getContext("2d");
+        // ctx.moveTo(0, 0);
+        // ctx.lineTo(300, 300);
+        // ctx.stroke();
+        ctx.font = "50px verdana  ";
+        ctx.fillStyle = "red";
+        ctx.textAlign = "center";
+        ctx.fillText("Mahadev", 150, 120);
+        ctx.strokeText("Mahadev", 150, 180);
+        
+    </script>
+</body>
+</html>
