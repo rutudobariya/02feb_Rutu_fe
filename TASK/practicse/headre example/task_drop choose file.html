@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />">
+    <title>drop down</title>
+    <style>
+        p{
+            color: red;
+        }
+        div{
+            height: fit-content;
+            width: fit-content;
+            margin: auto;
+        }
+        body{
+            width: 600px;
+            margin: auto;
+        }
+        .drag{
+            border:solid black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Upload Reviews</h1>
+    <hr>
+    <p>Please note  </p>
+        <ol>
+            <li>Please upload your screenshot of Google or Facebook review</li>
+             <li>If wrong image uploaded you will not be rewarded.</li>
+        </ol>
+      <div>
+        <label for="review-image">Upload YOur Image </label>
+        <span style="color:red">*</span><br><br>
+        <div class="drag or drop">
+
+        <input type="file" style="height: 150px; width: 250px;">
+        <div class="icon"><i class="fa-thin fa-arrow-up"></i></div>
+        <h3>Drag Drop Upload file Or Click</h3>
+      
+    </div>
+    <br>
+
+    <label for="source">Review From</label>
+    <span style="color:red">*</span><br><br>
+    <select name="source" id="" style="width: 200px; height: 30px;">
+    <option value="">---------select-------</option>
+    <option value="">Facebook Review</option>
+    <option value="">Google Review</option>
+    </select><br><br>
+    ReMark<br><br>
+    <textarea name="" id="" cols="25" rows="5"></textarea><br>
+    <input type="submit" style="height: 30; width: 100px; margin: 50px;">
+</div>
+</body>
+
+</html>

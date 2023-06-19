@@ -1,0 +1,211 @@
+*{
+    margin:0;
+}
+/*p{
+    height: 50px;
+    width: auto;
+    margin: 5px;
+    padding: 10px;
+    color:#00572d;
+    background-color: antiquewhite;
+    text-align: center;
+}*/
+header{
+    height:70px;
+    width:auto;
+    background: transparent;
+}
+a{
+    text-decoration: none;
+    color: #00572d;
+}
+.logo img{
+    height:40px;
+    width:15%;
+    padding: 0px 60px 0px 0px;
+    float:left;
+    background: transparent;
+}
+.menu ul{
+height: 70px;
+padding:0px 0px 0px 300px;
+background: transparent;
+}
+
+.menu ul li{
+    list-style: none;
+   display: inline;
+    padding:30px;
+    line-height: 4;
+ }
+
+ button{
+    border-radius: 5px;
+    background-color: #00572d;
+   color: #fff;
+    height: 37px;
+    width:65px;
+}
+
+ 
+.text-1{
+    z-index:2;
+   
+    position: fixed;
+    top: 250px;
+    left:380px;
+    position: absolute;
+    font-size: 35px;
+    color:#fff;
+}
+.text-2{
+   
+   z-index: 2;
+    /* position: fixed; */
+    position: absolute;
+    font-size: 40px;
+    top:320px;
+    left:410px;
+    border: 2px solid transparent;
+    border-radius: 40px;
+    background-color: #fff;
+}
+.text-3{
+    
+    top: 400px;
+    left: 350px;
+    font-size: 30px;
+    color: #fff;
+    z-index: 2 ;
+    /* position: fixed; */
+    position: absolute;
+}
+.text-4{
+    position: absolute;
+    top: 450px;
+    left: 500px;
+    box-sizing: border-box;
+    z-index: 2 ;
+    /* position: fixed; */
+   
+    color: #fff;
+}
+#slider{
+    z-index: 1;
+}
+
+#slider img{
+    position: absolute;
+    top: 0;
+    
+    height: 500px;
+    width: 100%;
+    filter: brightness(50%);
+    left: 0;
+    z-index: 0;
+    position: relative;
+    
+}
+
+.pizza-1{
+    
+    top:40px;
+    left: 350px;
+    color: #fff;
+    position: absolute;
+    font-size: 50px;
+}
+.pizza-2{
+   
+    left: 400px;
+    color: yellow;
+    font-size: 50px;
+    position: absolute;
+    top: 100px;
+}
+.pizza-3{
+    
+    top: 60px;
+    left: 390px;
+    color: #fff;
+    position: absolute;
+    font-size: 50px;
+}
+.pizza-4{
+
+    top: 120px;
+    left: 300px;
+    color: yellow;
+    font-size: 50px;
+    position: absolute;
+}
+.pizza-5{
+  
+    top: 60px;
+    left: 290px;
+    position: absolute;
+    color: #fff;
+    font-size: 60px;
+}
+.pizza-6{
+   
+    top: 150px;
+    left: 380px;
+    position: absolute;
+    color: yellow;
+    font-size: 50px;
+}
+select:focus{
+    
+    outline: none;
+}
+select{
+    padding: 3px 20px ;
+    border: none;
+    margin: 15px;
+
+}
+.text-4 input{
+    padding: 10px 35px;
+    font-size: 15px;
+    border-radius: 20px;
+}
+.menu ul li a{
+    text-decoration: none;
+    color:#317755
+}
+.menu a:hover{
+    cursor:pointer;
+}
+.store{
+    position: relative;
+    z-index: 2;
+  
+
+}
+ .store .locate{ 
+    height:220px;
+    width:100%;
+    background: #00572d;
+    position: absolute;
+    display:none;
+    top: 50px;
+    } 
+.store .locate li{
+    display:block;
+    margin:0px;
+    padding:0px;
+    color:#fff;
+  right:410px;
+ 
+}
+.store:hover .locate{
+    display: block;
+}
+
+
+
+
+
+
+

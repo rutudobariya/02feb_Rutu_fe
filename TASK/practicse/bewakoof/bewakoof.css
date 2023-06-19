@@ -1,0 +1,38 @@
+*{
+    margin:0;
+    padding: 0;
+    
+}
+.header{
+    height:50px;
+    width:20%;
+    float: left;
+    background:#eeeeee;
+  
+  
+}
+.left ul{
+height:10px;
+background: #eeeeee;
+}
+.left ul li{
+    list-style: none;
+   display: inline;
+    padding:10px;
+   line-height:2;
+   top:0;
+}
+.right ul{
+    height:25px;
+    background: #eeeeee;
+   
+}
+.right ul li{
+    list-style: none;
+   display: inline;
+    padding: 0px 20px 50px 20px;
+    margin-left: 20px;
+  line-height:1;
+  float: right;
+
+}

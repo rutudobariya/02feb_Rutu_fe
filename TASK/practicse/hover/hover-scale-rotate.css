@@ -1,0 +1,34 @@
+.box img{
+    width: 100%;
+    height: auto;
+    transition: all 0.4s;
+}
+.box{
+    border:2px solid black;
+    width:300px;
+    position:relative;
+    overflow: hidden;
+    margin:10px auto;
+}
+.box:hover img{
+    transform: scale(0);
+}
+.box .box-content{
+    background-color: brown;
+    color:#fff;
+    position: absolute;
+    left:0;
+    top:0;
+    width: 100%;
+    height: 100%;
+    padding: 30px;
+    box-sizing: border-box;
+    transform: scale(0) rotate(-180deg);
+    opacity:0;
+    transition: all 0.4s;
+}
+.box:hover .box-content{
+    opacity:1;
+    transform: scale(1) rotate(0deg);
+    transition-delay: 0.2s;
+} 

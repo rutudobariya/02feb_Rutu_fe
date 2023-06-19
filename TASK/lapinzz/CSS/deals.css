@@ -1,0 +1,244 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.shoppy{
+    height: 500px;
+    width: 100%;
+
+}
+.shoppy1{
+    
+    justify-content: 60px space-between;
+    display: flex; 
+}
+.shoppy2{
+   
+    justify-content: 60px space-between;
+    display: flex; 
+}
+.t{
+   
+    
+    z-index: 1;
+    background-color: #fc636b;
+    color: #fff;
+    display: block;
+    width: 50px;
+    top: 0;
+    right: 0;
+    width:50px;
+    text-align: center;
+    height: 23px;
+    line-height: 1.5s;
+    position: absolute;
+}
+.t2{
+   
+    color: #fc636b;
+    position: absolute;
+    font-size: 20px;
+    top: 260px;
+}
+.t3{
+    position: absolute;
+    top: 295px;
+    left: 60px;
+}
+.t4{
+    position: absolute;
+    top: 290px;
+    left: 130px;
+    text-decoration: line-through;
+    color: #666;
+    text-decoration-color: #9c9999;
+}
+.t5{
+    position:absolute;
+    color: #fff;
+    background-color: #2fdab8;
+    top: 340px;
+    left: 60px;
+    padding: 5px 20px;
+    transition: 0.5s;
+}
+.t6{
+    
+    background: black;
+    color: white;
+    opacity: 0;
+    position: absolute;
+    transition: 1s;
+    width: 225px;
+    text-align: center;
+    font-size: large;
+    top: 0;
+}
+.i-1:hover .t6{
+   
+    top: 205px;
+    padding: 12px;
+    opacity: 1;
+}
+.i-2:hover .t6{
+    
+    top: 205px;
+    padding: 12px;
+    opacity: 1;
+}
+.i-3:hover .t6{
+    
+    top: 205px;
+    opacity: 1;
+    padding: 12px;
+}
+.i-4:hover .t6{
+    opacity: 1;
+    top: 205px;
+    padding: 12px;
+}
+.i-5:hover .t6{
+    opacity: 1;
+    top: 205px;
+    padding: 12px;
+}
+.i-6:hover .t6{
+    opacity: 1;
+    top: 205px;
+    padding: 12px;
+}
+.i-7:hover .t6{
+    opacity: 1;
+    top: 205px;
+    padding: 10px;
+}
+.i-8:hover .t6{
+    opacity: 1;
+    top: 205px;
+    padding: 12px;
+}
+.t5:hover{
+    outline-offset: 5px;
+    outline:  solid 3px #2fdab8;
+}
+.t6:hover{
+    background: #2fdab8;
+} 
+
+.i-1{
+   
+    top: 15px;
+    left: 60px;
+    box-shadow: 5px 5px 20px #d2d0d0; 
+    background-color: #fff;
+    position: relative;
+    height: 380px;
+    width: 240px;
+    
+}
+.i-2{
+   
+
+    position: relative;
+    height: 380px;
+    width: 240px;
+    background-color: #fff;
+    box-shadow: 5px 5px 20px #d2d0d0; 
+    top: 15px;
+    left: 110px;
+
+    
+}
+.i-3{
+   
+    height: 390px;
+    width: 250px; 
+    top: 15px;
+    left: 160px;
+    background-color: #fff;
+    box-shadow: 5px 5px 20px #d2d0d0; 
+    position: relative;
+}
+.i-4{
+    
+    top: 15px;
+    left: 210px;
+    background-color: #fff;
+    box-shadow: 5px 5px 20px #d2d0d0; 
+    position: relative;
+    height: 380px;
+    width: 240px;
+}
+.i-5{
+   
+    top: 60px;
+    left: 60px;
+    background-color: #fff;
+    box-shadow: 5px 5px 20px #d2d0d0; 
+    position: relative;
+    height: 380px;
+    width: 240px;
+}
+.i-6{
+    
+    top: 60px;
+    left: 110px;
+    background-color: #fff;
+    box-shadow: 5px 5px 20px #d2d0d0; 
+    position: relative;
+    height: 380px;
+    width: 240px;
+}
+.i-7{
+   
+    width: 240px;
+    top: 60px;
+    left: 160px;
+    background-color: #fff;
+    box-shadow: 5px 5px 25px #d2d0d0; 
+    position: relative;
+    height: 380px;
+}
+.i-8{
+    
+    width: 240px;
+    top: 60px;
+    left: 210px;
+    background-color: #fff;
+    box-shadow: 5px 5px 25px #d2d0d0; 
+    position: relative;
+    height: 380px;
+}
+img{
+    
+    top: 30px;
+    left: 50px;
+    position: absolute;
+    height: 190px;
+    width: 160px;
+    
+}
+.ttt1{
+    left: 50px;   
+}
+.ttt2{
+    left: 20px;
+}
+.ttt3{
+    left: 40px;
+}
+.ttt4{
+    left: 33px; 
+}
+.ttt5{
+    left: 58px;
+}
+.ttt6{
+    left: 72px;
+}
+.ttt7{
+    left: 70px;
+}
+.ttt8{
+    left: 62px;
+}
