@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Que-8</title>
+    <link rel="stylesheet" href="../Que-8/CSS/style.css">
+</head>
+<body>
+    <header class="box">
+        <header class="prev">
+            <button><a href="../Que-7/Que-7.html">Prev</a></button>
+        </header>
+        <header class="next">
+            <button><a href="../Que-9/Que-9.html">Next</a></button>
+        </header>
+    </header>
+
+    <hr>
+    <hr>
+    <h1>Que:8</h1>
+    <hr>
+    <hr> <br>
+
+    <h2><u>How can the style/class of an element be changed?</u></h2><br><br>
+
+    <b><u>Ans:</u></b>
+    <br> 
+    <h3 style="color:green;margin-left:20px;font-size: 40px; " >
+        Rutu Dobariya
+    </h3> 
+     <h4 style="font-size: 20px;">
+         Change class name of element
+     </h4> <br> <br>
+     <button class="default" onclick="changeClass()" id="myButton">
+         Click Here!</button><br>
+         <p id="myPara">
+             Old class name: default
+         </p>
+ 
+         <!-- Code for the changeclass using javascript -->
+         <script>
+            //style element  changed
+             myPara.style.color ="red";
+              function changeClass() {
+                 myPara.style.color ="green";
+
+                 document.getElementById('myButton').className = "changedClass";
+                 var button_class = document.getElementById('myButton').className;
+                 document.getElementById('myPara').innerHTML = "New class name: "
+                                  + button_class;
+              }
+         </script>
+ <hr><hr>
+</body>
+</html>

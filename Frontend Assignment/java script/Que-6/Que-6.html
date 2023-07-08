@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Que-6/CSS/style.css">
+    <title>Que-6</title>
+</head>
+<body>
+    <header class="box">
+        <header class="prev">
+            <button><a href="../Que-5/Que-5.html">Prev</a></button>
+        </header>
+        <header class="next">
+            <button><a href="../Que-7/Que-7.html">Next</a></button>
+        </header>
+    </header>
+
+    <hr>
+    <hr>
+    <h1>Que:6</h1>
+    <hr>
+    <hr> <br>
+
+    <h2><u>Write  the code for adding new elements dyamically ?</u></h2><br><br>
+
+    <b><u>Ans:</u></b>
+    <br> <br>
+    <h3>Dynamically User Input</h3> 
+   <form>
+   <label for="pri">Enter Name:-
+    <input type="text" id="nm">
+</label> <br> <br>
+
+<button type="button" id="btn1" onclick="user()">Calculate</button>
+    <!-- <button type="reset">Reset</button> <br> <br> -->
+
+    <!-- <label for="">Result:-
+        <input type="text" id="result" class="results" readonly>
+    </label> <br> <br> -->
+
+    <h3 id="demo"> </h3>
+
+</form>
+<script>
+    var nm =document.getElementById("nm");
+    var btn = document.getElementById("btn1");
+    var demo = document.getElementById("demo");
+    function user(){
+        demo.innerHTML = "my fullname is :-"+nm.value;
+      }
+</script>
+
+
+    </body>
+</html>

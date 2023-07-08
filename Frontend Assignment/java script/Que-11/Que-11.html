@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Que-11</title>
+    <link rel="stylesheet" href="../Que-11/CSS/style.css">
+</head>
+<body>
+    <header class="box">
+        <header class="prev">
+            <button><a href="../Que-10/Que-10.html">Prev</a></button>
+        </header>
+        <header class="next">
+            <button><a href="../Que-12/Que-12.html">Next</a></button>
+        </header>
+    </header>
+
+    <hr>
+    <hr>
+    <h1>Que:11</h1>
+    <hr>
+    <hr> <br>
+
+    <h2><u>What are all the types of Pop up boxes available in JavaScript ? </u></h2><br><br>
+
+    <b><u>Ans:</u></b>
+    <p style="background-color: rgb(177, 11, 127);width:60%;height:30px; color:white;padding: 5px;border-left:5px solid rgb(255, 166, 0);">There are three types of popup boxes available in js:1) alert box 2)prompt box 3) Confirm box.</p>
+    <h4 style="font-size:22px;">Meaning of Alert </h4>
+    <p style="background-color: cadetblue;width:50%;padding: 5px; border-left:5px solid blue;"> 
+        An alert box is often used if you want to make sure information comes through to the user.<br>
+        When an alert box pops up, the user will have to click "OK" to proceed.</p>
+        <h3>JavaScript Alert</h3> <br><br>
+    <button class="Prompt" onclick="myFunction()">Try it</button>
+    <!-- Js code for alert box -->
+    <script>
+        function myFunction()
+        {
+            alert("I am an alert box!");
+        }
+    </script>
+    <!-- Example of prompt box -->
+    <h4 style="font-size:22px;">Meaning of Prompt </h4>
+    <p style="background-color: cadetblue;width:50%;padding: 5px; border-left:5px solid blue;">A prompt box is often used if you want the user to input a value before entering a page.<br>
+        When a prompt box pops up, the user will have to click either "OK" or "Cancel" to proceed after entering an input value.</p>
+        <h3>JavaScript Prompt</h3> <br><br>
+        <button  class="Prompt"   onclick="promptBox()">Try it</button>
+
+        <p id="prompt"></p>
+            
+
+            <script>
+            function promptBox() {
+            let text;
+            let person = prompt("Please enter your name:", "Dobariya Rutu");
+            if (person == null || person == "") {
+                text = "User cancelled the prompt.";
+            } else {
+                text = "Hello " + person + "! How are you today?";
+            }
+            document.getElementById("prompt").innerHTML = text;
+            }
+            </script>
+            <!-- Example of confirm box -->
+            <h4 style="font-size:22px;">Meaning of Confirm</h4>
+            <p style="background-color: cadetblue;width:50%;padding: 5px;border-left:5px solid blue;">A confirm box is often used if you want the user to verify or accept something.<br>
+
+                When a confirm box pops up, the user will have to click either "OK" or "Cancel" to proceed.<br>
+                
+                If the user clicks "OK", the box returns true. If the user clicks "Cancel", the box returns false.</p>
+                <!-- Js code for Confirm box -->
+                <h3>JavaScript Confirm Box</h3> <br><br>
+                    <button  class="Prompt" onclick="ConfirmBox()">Try it</button>
+
+                    <p id="confirm"></p>
+
+                    <script>
+                    function ConfirmBox() {
+                    var txt;
+                    if (confirm("Press a button!")) {
+                        txt = "You pressed OK!";
+                    } else {
+                        txt = "You pressed Cancel!";
+                    }
+                    document.getElementById("confirm").innerHTML = txt;
+                    }
+                    </script>
+
+
+
+
+    </body>
+</html>

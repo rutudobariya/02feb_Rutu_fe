@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Que-9</title>
+    <link rel="stylesheet" href="../Que-9/css/style.css">
+</head>
+<body>
+    <header class="box">
+        <header class="prev">
+            <button><a href="../Que-8/Que-8.html">Prev</a></button>
+        </header>
+        <header class="next">
+            <button><a href="../Que-10/Que-10.html">Next</a></button>
+        </header>
+    </header>
+
+    <hr>
+    <hr>
+    <h1>Que:9</h1>
+    <hr>
+    <hr> <br>
+
+    <h2><u>How can you convert to string of any  base to an integer in javascript ?</u></h2><br><br>
+
+    <b><u>Ans:</u></b>
+    <p style="font-size: 20px;">We can convert any string type to integer use <mark style="padding: 5px;background-color: rgb(170, 173, 175);">parseInt()</mark> Method.</p>
+
+    <p style="background-color: yellow;padding: 5px; width:30%; font-size:18px;"><b>Note:</b> You can see the output in Console.</p>
+
+    <script>
+        var a=10;  // number
+        var b=parseInt("10"); // string
+    // parseInt()  this is a default method in javascript is called type casting method it will used to convert any variables datatypes 
+     //to check the type of the data using this method.(typeof)   
+    // document.write(typeof(a));
+    //document.write(typeof(b));
+        var c=a+b;
+        console.log("Additions of numbers is :",c);
+    </script>
+    <p style="width:50%;  background-color: bisque; padding: 7px; font-size: 20px;">without <b>parseInt()</b> method you can check the result in console.
+    because whenever you assign the value in the double quote it will decide string value of the variable and output will be 3040.(addition of two value but one is number and another is string it means not addition it will combine the both value.</p>
+    <img src="../Que-9/parseint.JPG" width="400px" height="200px">
+    <!-- example without the parseInt method. -->
+    <script>
+    var a=30;//number
+    var b="40";//string
+    var c=a+b;
+    console.log("Addition of number is:",c);
+
+    </script>
+    <hr> <hr>
+
+    
+</body>
+</html>

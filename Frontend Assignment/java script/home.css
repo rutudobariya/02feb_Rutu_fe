@@ -1,0 +1,19 @@
+*{
+    
+    font-family: 'Times New Roman', Times, serif;
+}
+.links a{
+    color: blue;
+    font-size: large;
+    padding: 5px;
+    margin: 200px;
+    font-size: 20px;
+    font-weight: 600;
+}
+h1{
+    color: brown;
+    text-shadow: 2px 2px 2px lightsalmon;
+    font-size: 40px;
+    background-color:tan;
+    text-align: center;
+}

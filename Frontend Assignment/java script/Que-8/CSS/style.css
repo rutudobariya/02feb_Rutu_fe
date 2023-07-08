@@ -1,0 +1,76 @@
+.box a{
+    text-decoration: none;
+    color:blue;
+    text-shadow: 5px 5px 5px lightgreen;
+    background-color:lightcoral;
+    padding:5px;
+    font-size:25px;
+}
+.prev{
+    margin-top:20px;
+    margin-bottom: 20px;
+}
+.next{
+    float:right;
+    margin-top:-70px;
+}
+button{
+    border: 2px solid black;
+    background-color:lightcoral;
+    color:blue;
+    text-shadow: 5px 5px 5px lightgreen;
+    font-size: 25px;
+    padding:10px;
+    display:inline-block;
+    border-radius:10px;
+}
+hr{
+    border-color: lightgreen;
+}
+h1{
+    text-align: center;
+    text-shadow: 5px 5px 5px lightgreen;
+    color:darkred;
+}
+h2{
+    background-color: lightskyblue;
+    display: inline;
+    padding: 10px;
+    border-radius: 12px;
+}
+b{
+    font-size: 20px;
+}
+p{
+    margin-left:20px;
+    
+}
+ .default{
+    background-color: red;
+}
+.changedClass{
+    background-color: green;
+} 
+h4{
+    background-color:darksalmon;
+    display: inline;
+    padding: 10px;
+    margin-left: 20px;
+    border-radius: 20px; 
+}
+#myButton
+{
+    height: 40px;
+    width:110px;
+    border-radius: 15px;
+    font-size: medium;
+    margin-left: 30px;
+    color:white;
+    margin-top:35px;
+}
+#myPara
+{
+    font-size: 20px;
+ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ font-weight: 600;
+}

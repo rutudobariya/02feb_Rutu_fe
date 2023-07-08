@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Que-12</title>
+    <link rel="stylesheet" href="../Que-12/CSS/style.css">
+</head>
+<body>
+    <header class="box">
+        <header class="prev">
+            <button><a href="../Que-11/CSS/style.css">Prev</a></button>
+        </header>
+        <header class="next">
+            <button><a href="../Que-13/Que-13.html">Next</a></button>
+        </header>
+    </header>
+
+    <hr>
+    <hr>
+    <h1>Que:12</h1>
+    <hr>
+    <hr> <br>
+
+    <h2><u>What is the use of Void (0) ? </u></h2><br><br>
+
+     <b><u>Ans:</u></b>
+    <p><b>--></b><mark style="padding: 5px;background-color: rgb(170, 173, 175);">JavaScript void (0)</mark> means returning undefined (void) as a primitive value.</p>
+    <p><b>--></b>We use this to prevent any negative effects on a webpage when we insert some expression</b></p>
+    <h3>Example</h3> <br> <br>
+    <a href="javascript:void(0);">Unless Link</a> <br> <br>
+    <a href="https://www,flipkart,com;" style="color:red;">Visit to flipkart </a> <br>
+
+    <input type="button"  class="void" value="Click Me"   onclick="Value();" >
+           <p id ="demo">
+           </p>
+
+     
+
+      
+    <script>
+        function foo() {
+           return void 0;
+       }
+       console.log(foo());
+        function Value() {
+            var g, f, h;
+            g = void(f = 13, h = 19);
+            // document.write('g = ' + g);
+            document.getElementById("demo").innerHTML="This Number is:"+g;
+        }
+    </script>
+</body>
+</html>

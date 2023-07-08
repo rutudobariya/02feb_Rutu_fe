@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MATH OPERATION</title>
+    <link rel="stylesheet" href="../../java script/Que-16/CSS/style.css">
+</head>
+<body>
+    <header class="box">
+        <header class="prev">
+            <button><a href="../Que-15/index.html">Prev</a></button>
+        </header>
+        <header class="next">
+            <button><a href="../Que-17/marksheet.html">Next</a></button>
+        </header>
+    </header>
+
+    <hr>
+    <hr>
+    <h1>Que:16</h1>
+    <hr>
+    <hr> <br>
+
+    <section>
+     <h2>Maths Operations</h2>
+     
+        
+     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Enter 1st number: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="text" name="value 1" id="val1" > <br> <br>
+     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Enter 2st number: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="value 2" id="val2" > <br> <br>
+             <P>Answer is: <span id="ans"></span></P>
+             <div class="btn">
+            <button  onclick="add()">+</button> 
+            <button onclick="sub()">-</button>
+            <button onclick="mul()">*</button> <br>
+            <button onclick="div()">/</button>
+            <button onclick="mod()">%</button>
+        </div>
+    
+  
+
+    </section>
+
+    <script>
+        let val1 = parseInt(document.getElementById('val1').value);
+        let val2 = parseInt(document.getElementById('val2').value);
+        let ans = document.getElementById('ans');
+
+        function add()
+        {
+             ans.innerHTML = val1 + val2 ;
+            
+        }
+         
+        function sub()
+        {
+            ans.innerHTML = val1 - val2 ;
+
+        }
+
+        function mul()
+        {
+            ans.innerHTML = val1 * val2 ;
+        }
+
+        function div()
+        {
+            ans.innerHTML = val1 / val2 ;
+        }
+
+        function mod()
+        {
+            ans.innerHTML = val1 % val2 ;
+        }
+</script>
+        
+
+</body>
+
+
+
+
+
+
+
+
+
+
+</html>

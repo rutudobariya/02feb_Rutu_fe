@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Que-13</title>
+    <link rel="stylesheet" href="../Que-13/CSS/style.css">
+</head>
+<body>
+    <header class="box">
+        <header class="prev">
+            <button><a href="../Que-12/Que-12.html">Prev</a></button>
+        </header>
+        <header class="next">
+            <button><a href="../Que-14/Que-14.html">Next</a></button>
+        </header>
+    </header>
+
+    <hr>
+    <hr>
+    <h1>Que:13</h1>
+    <hr>
+    <hr> <br>
+
+    <h2><u>How can a page be forced to load another page in Javascript ? </u></h2><br><br>
+
+     <b><u>Ans:</u></b>
+
+     <p><b>--></b>in Javascript ,we can use <mark style="padding: 5px;background-color: rgb(170, 173, 175);">window.loation</mark>object to force a page to load another page.</p>
+     <p><b>--></b>We can use the location object to set the URL of a new page.</p>
+
+     
+     <h3>Forced Load page using window.location.href property</h3>
+   <p>Click on the below button to force reload new page</p>
+   <button  onclick="forceLoad()">Load</button>
+   <script>
+      function forceLoad() {
+         window.location.href = "https://www.flipkart.com";
+      }
+   </script>
+     </body>
+     </html>

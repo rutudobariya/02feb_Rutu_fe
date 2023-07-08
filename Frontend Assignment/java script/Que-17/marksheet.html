@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student marksheet</title>
+    <link rel="stylesheet" href="../Que-17/marksheet.css">
+</head>
+<body>
+    <header class="box">
+        <header class="prev">
+            <button><a href="../Que-16/math operation .html">Prev</a></button>
+        </header>
+        <header class="next">
+            <button><a href="../Que-18/slider.html">Next</a></button>
+        </header>
+    </header>
+
+    <hr>
+    <hr>
+    <h1>Que:17</h1>
+    <hr>
+    <hr> <br>
+
+    <h2><u>create Result </u></h2><br><br>
+
+     <b><u>Ans:</u></b>
+    <section>
+        <h4 style="font-size: 20px; margin-left:20px;">Marksheet For Information Technology</h2>
+        <center><h3>Enter Marks</h3></center>
+      
+     <label for="text">1.C Language:</label>       
+     <input type="text" name="value 1" id="val1" style="margin-left:140px;" > <br> <br>
+     <label for="text">2.C++ Language:</label>      
+     <input type="text" name="value 2" id="val2" style="margin-left:125px;"  > <br> <br>
+     <label for="text">3.Database:</label>      
+     <input type="text" name="value 3" id="val3" style="margin-left:160px;" > <br> <br>
+     <label for="text">4.HTML</label>      
+     <input type="text" name="value 4" id="val4" style="margin-left:180px;" > <br> <br>
+     <label for="text">5.CSS:</label>      
+     <input type="text" name="value 5" id="val5" style="margin-left:190px;" > <br> <br>
+     <label for="text">6.pHP:</label>      
+     <input type="text" name="value 6" id="val6" style="margin-left:190px;" > <br> <br>
+     <label for="text">7.Core Java:</label>      
+     <input type="text" name="value 7" id="val7" style="margin-left:150px;" > <br> <br>
+        <button onclick="add()"> RESULT </button>  <br> <br>
+         <p>Total is:<span id="ans"></span>/350</p>
+         <p>Percentage is:<span id="per"></span>%</p>
+        
+</section>
+
+<script>
+           let val1 = parseInt(document.getElementById('val1').value);
+           let val2 = parseInt(document.getElementById('val2').value);
+           let val3 = parseInt(document.getElementById('val3').value);
+           let val4 = parseInt(document.getElementById('val4').value);
+           let val5 = parseInt(document.getElementById('val5').value);
+           let val6 = parseInt(document.getElementById('val6').value);
+           let val7 = parseInt(document.getElementById('val7').value);
+        
+        let ans = document.getElementById("ans");
+        let per = document.getElementById("per");
+
+
+
+        function add()
+        {
+            ans.innerHTML = val1 + val2 + val3 + val4 +val5 + val6 + val7 ;
+            console.log(ans.value);
+            per.innerHTML = ((ans.innerHTML/350) *100).toFixed(2) ;
+            console.log(per);
+        }
+
+</script>
+</body>
+</html>
+

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Que-15</title>
+<link rel="stylesheet" href="../Que-15/CSS/style.css">
+</head>
+<body>
+    <header class="box">
+        <header class="prev">
+            <button><a href="../Que-14/Que-14.html">Prev</a></button>
+        </header>
+        <header class="next">
+            <button><a href="../Que-16/math operation .html">Next</a></button>
+        </header>
+    </header>
+
+    <hr>
+    <hr>
+    <h1>Que:15</h1>
+    <hr>
+    <hr> <br>
+    <div class="password">
+    <strong>Password :</strong>
+    
+    <input type="password" id="password" style="outline: none;"><br> <br> 
+    <input type="checkbox" onclick="pwd()">
+    <strong >Show Password :</strong>
+</div>
+
+    <script>
+        function pwd()
+        {
+            let temp = document.getElementById("password");
+
+            if(temp.type === "password")
+            {
+                temp.type ="text";
+            }
+            else
+            {
+                temp.type = "Password";
+            }
+        }
+    </script>
+</body>
+</html>
