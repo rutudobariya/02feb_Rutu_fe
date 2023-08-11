@@ -1,0 +1,43 @@
+body 
+{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+#header 
+{
+    width: 100%;
+    height: auto;
+    background-color: #2874f0;
+    padding: 5px;
+    /* display: flex;
+    flex-direction: row; */
+
+}
+.logo 
+{
+    width: auto;
+    height: auto;
+}
+.logo img 
+{
+    width: 50%;
+    height: auto;
+}
+
+.header-link li
+{
+display: inline-block;
+padding: 0px 2px;
+}
+.header-link a 
+{
+    color: white;
+    list-style-type: none;
+    text-decoration: none; 
+}
+.dropdown:hover .dropdown-menu
+{
+    display: block;
+}
