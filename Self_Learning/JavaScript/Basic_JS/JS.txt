@@ -1,0 +1,10 @@
+
+- JavaScript is scripting promgramming language.
+
+- JavaScript is  platform independent language.
+
+- Node.js is a JavaScript runtime.
+
+- JavaScript is a use to interect the html pages.
+
+- JavaScript has many library files and framework.

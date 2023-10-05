@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic-Value</title>
+    <style>
+        form{
+            border: 2px double crimson;
+            padding: 20px 10px;
+            border-radius: 10px;
+            margin: 10px 500px;
+        }
+        div{
+            margin: 15px auto;
+        }
+        input[ id="sub"]
+        {
+            width: 120px;
+        }
+        :focus{
+            outline: none;
+        }
+    </style>
+</head>
+<body>
+        <div class="vl1">
+            <input type="text" name="value-1" id="vl1" placeholder="Enter the 1st value">
+        </div>
+        <div class="vl2">
+            <input type="text" name="value-2" id="vl2" placeholder="Enter the 2nd value">
+        </div>
+        <div class="ans">
+            <input type="text" name="answer" id="ans" placeholder="Your Answer is......">
+        </div>
+
+        <button onclick="add()">Addition</button>
+        <button onclick="sub()">Substraction</button>
+        <button onclick="mul()">Muktiplication</button>
+        <button onclick="div()">Division</button>
+        <button onclick="mod()">Modulo</button>
+        <button onclick="inc()">Increment</button>
+        <button onclick="dec()">Decrement</button>
+
+    <script>
+        var vl1 = parseInt(document.getElementById('vl1').value);
+        var vl2 = parseInt(document.getElementById('vl2').value);
+        var ans = document.getElementById('ans');
+
+        function add()
+        {
+            ans.value = vl1 + vl2;
+        }
+        function sub()
+        {
+            ans.value = vl1 - vl2;
+        }
+        function mul()
+        {
+            ans.value = vl1 * vl2;
+        }
+        function div()
+        {
+            ans.value = vl1 / vl2;
+        }
+        function mod()
+        {
+            ans.value = vl1 % vl2;
+        }
+        function inc()
+        {
+            vl1++;
+            ans.value = vl1;
+        }
+        function dec()
+        {
+            vl1--;
+            ans.value = vl1;
+        }
+    </script>
+
+</body>
+</html>

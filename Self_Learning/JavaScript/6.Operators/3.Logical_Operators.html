@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logical-Operator</title>
+</head>
+<body>
+    <h1>Logical-Operator divide in 3 types.</h1>
+    <h2>1. Logical AND</h2>
+    <p>The logical AND operator (&&)  true if both condition are true. Otherwise, ans is  false.</p>
+    <h2>2. Logical OR</h2>
+    <p>The logical OR operator (||)  true if either condition is true. Otherwise, ans is false.</p>
+    <h2>3. Logical NOT</h2>
+    <p>The logical NOT operator (!)  true if the condition is false. Otherwise, ans is true.</p>
+    <script>
+        // Logical Operators
+
+        //1. Logical &&
+
+        let a = 10;
+        let b = 20;
+        if((a > 0 && b < 0))   //in value of p is bigger compare to 0 and q is smaller compare to 0.
+        {
+            console.log("true");
+        }
+        else
+        {
+            console.log("false");
+        }
+
+        //2. Logical ||
+
+        let p = 10;
+        let q = 20;
+        if((p > 0 || q < 0))
+        {
+            console.log("true");
+        }
+        else{
+            console.log("false");
+        }
+
+        // 3. Logical !(not)
+
+        let c = 10;
+        let d = 20;
+        if(!(c > 0 || d < 0))
+        {
+            console.log("true");
+        }
+        else{
+            console.log("false");
+        }
+
+    </script>
+</body>
+</html>

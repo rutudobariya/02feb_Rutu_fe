@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Const-Variable</title>
+</head>
+<body>
+    <h1>This is const variable</h1>
+    <p id="paragraph"></p>
+    <script>
+        let p = document.getElementById('paragraph');
+
+        // Declaration of the variable
+        const name = 'Khush';
+        p.innerHTML = name;
+
+        // Redeclaration of the variable
+        // const name = 'Pooja'; //Redeclration of the variable is not allowed 
+        // p.innerHTML = name;
+
+        // Change the value(reinitialize of the name)
+        // name = 'Dev';  //can't reinitailize
+        // p.innerHTML = name;
+
+
+    </script>
+</body>
+</html>

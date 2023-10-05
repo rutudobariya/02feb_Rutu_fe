@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Function</title>
+</head>
+<body>
+    <p>Function is a block of code</p>
+    <p>Function can define using function keyword</p>
+    <script>
+        // function keyword
+        function data()
+        {
+            var p = 30; //local variable
+            var q = 40;
+            document.write("<br>Value of the p is:" + p + "<br>Value of the q is:" + q);
+        }
+        //var p = 30; Global variable
+        data();
+
+// 2nd  //
+
+        function add(p ,q /* Formal parameter*/)
+        {
+            document.write("<br><br>addition of the p and q:" , p+q);
+        }
+        add(30 , 40) //without string value show the result of addition is 70
+        // add('30','40'); //''string value show the result of 3040
+
+        /*
+            -> Local variable can use only inside the function
+            -> Global variable can use anywhere
+            -> Parameter/Argument() can use only insie the that function's body
+        */
+    </script>
+</body>
+</html>
